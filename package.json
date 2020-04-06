@@ -1,0 +1,15 @@
+{
+  "name": "prac-prpj",
+  "version": "0.0.1",
+  "description": "A NodeJS practice project for backend web application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MRA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi-browser": "^13.4.0"
+  }
+}
