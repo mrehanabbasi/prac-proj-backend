@@ -9,7 +9,7 @@ RUN chown -R node:node /usr/src/app
 # Copy package.json AND package-lock.json to working directory
 COPY package*.json ./
 
-#witch user to non-root "node"
+# Switch user to non-root "node"
 USER node
 
 # Install dependencies
